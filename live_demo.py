@@ -2,7 +2,7 @@ import streamlit as st
 import streamlit.components.v1 as components
 
 st.set_page_config(page_title="Gestellence", page_icon="🤙", layout="centered")
-st.title("🤙 Gestellence – Live Gesture Translation")
+st.title("Gestellence – Live Gesture Translation")
 st.caption("Academic Project · MUJ 2026")
 st.info("**Gestures:** ✋ STOP | ✊ YES | ✌️ NO | 🤙 CALL ME | 👌 OK", icon="ℹ️")
 
