@@ -60,16 +60,16 @@
         <section id="problem" class="grid md:grid-cols-2 gap-12 items-stretch">
             <div class="glass p-10 rounded-[2.5rem] flex flex-col justify-center border-l-4 border-blue-600">
                 <h2 class="text-3xl font-extrabold mb-6">Problem Statement</h2>
-                <p class="text-slate-400 leading-relaxed text-justify">Communication between hearing-impaired and hearing individuals remains constrained due to the lack of mutual understanding of sign language and the absence of an intelligent, assistive tool capable of recognizing continuous sign-language gestures and multilingual speech and converting them into text or animated sign output.</p>
+                <p class="text-slate-400 leading-relaxed text-justify">Communication between hearing-impaired and hearing individuals remains constrained due to the lack of mutual understanding of sign language and the absence of an intelligent, assistive tool capable of recognizing continuous sign-language gestures and speech and converting them into text or animated sign output.</p>
             </div>
             <div class="space-y-6">
                 <div class="glass p-7 rounded-3xl border-r-4 border-blue-500/50">
                     <h3 class="text-blue-400 font-bold text-xs uppercase tracking-widest mb-2">Literature Review / Market Research</h3>
-                    <p class="text-sm text-slate-500 italic">Analyzed approaches including CNN-based sign language recognition, MediaPipe for hand tracking, transformer-based translation frameworks, and 3D avatar systems for Indian Sign Language. Existing systems focus on isolated word detection, limiting real-time continuous communication efficacy.Most existing systems achieve high accuracy in controlled environments but struggle with real-world variability such as lighting conditions, background noise, and continuous signing.</p>
+                    <p class="text-sm text-slate-500 italic">Sign language recognition research commonly employs hand landmark detection combined with classification algorithms for static gesture interpretation. Separately, speech-to-text and text-to-speech modules convert audio signals into readable or audible outputs. However, these technologies are often implemented in isolation. Few studies focus on integrating gesture recognition and speech processing within a single system architecture designed for real-time bidirectional communication.Existing systems focus on isolated word detection, limiting real-time continuous communication efficacy.Most existing systems achieve high accuracy in controlled environments but struggle with real-world variability such as lighting conditions, background noise, and continuous signing.</p>
                 </div>
                 <div class="glass p-7 rounded-3xl border-r-4 border-purple-500/50">
                     <h3 class="text-purple-400 font-bold text-xs uppercase tracking-widest mb-2">Research Gap / Innovation</h3>
-                    <p class="text-sm text-slate-500 italic">Our system integrates real-time gesture recognition, multilingual speech-to-text, and 3D avatar-based text-to-sign translation into a single unified web platform. Unlike existing systems that operate independently, our approach enables seamless continuous communication in both directions.</p>
+                    <p class="text-sm text-slate-500 italic">Our system integrates real-time gesture and 3D avatar-based text-to-sign translation into a single unified web platform. Unlike existing systems that have absence of a unified architecture combining gesture recognition and speech processing, Overemphasis on heavy training-based approaches instead of efficient landmark-based logic And Limited focus on deployable, cross-platform web interfaces.</p>
                 </div>
             </div>
         </section>
@@ -81,7 +81,7 @@
                 <div class="glass p-8 rounded-3xl text-center">
                     <i class="fas fa-video text-blue-500 text-3xl mb-4"></i>
                     <h3 class="font-bold mb-2 uppercase text-xs tracking-widest">Dataset / Input</h3>
-                    <p class="text-sm text-slate-500">Real-time webcam video for hand gesture detection using OpenCV. MediaPipe extracts 21 hand landmarks per frame at 30 FPS. Audio input captured for multilingual speech recognition.</p>
+                    <p class="text-sm text-slate-500">Real-time webcam video for hand gesture detection using OpenCV. MediaPipe extracts 21 hand landmarks per frame at 30 FPS. The WLASL (Word-Level American Sign Language) dataset has been finalized to support future expansion from rule-based gestures to trained word-level sign recognition. </p>
                 </div>
                 <div class="glass p-8 rounded-3xl text-center">
                     <i class="fas fa-brain text-purple-500 text-3xl mb-4"></i>
@@ -113,8 +113,8 @@
                             <i class="fas fa-microphone text-purple-400 text-xl"></i>
                         </div>
                         <div>
-                            <h4 class="font-bold text-sm mb-1">Multilingual Speech-to-Text</h4>
-                            <p class="text-xs text-slate-500">Integrate speech-to-text capabilities using Whisper for multilingual recognition.</p>
+                            <h4 class="font-bold text-sm mb-1">Speech-to-Text</h4>
+                            <p class="text-xs text-slate-500">Integrate speech-to-text capabilities using Whisper for recognition.</p>
                         </div>
                     </div>
                     <div class="flex items-start gap-4">
