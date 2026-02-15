@@ -1,6 +1,5 @@
 import cv2
 
-# Change this line:
 cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
 while True:
     ret, frame = cap.read()
